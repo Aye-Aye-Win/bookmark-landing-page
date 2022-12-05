@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+$font-family-sans-serif: 'Rubik', sans-serif;
+$card-border-color: transparent;
+$primary: hsl(231, 69%, 60%);
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+.mb-150{
+    margin-bottom: 150px;
+}
+@media (max-width:576px){
+    .btn{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
